@@ -51,7 +51,12 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
-
+@media (max-width: 500px) {
+a{
+	width: 48px;
+	height: 48px;
+}
+}
 a:focus{
 	color: #fff!important;
 	text-decoration: none!important;
@@ -583,7 +588,7 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+#tslider{
 	text-align: center!important;
 	position: relative!important;
 }
